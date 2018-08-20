@@ -1,0 +1,56 @@
+<html>
+ <head>
+  <title>STAFF </title>
+   <script>
+	   alert("click to continue");
+	  </script> 
+	 <style type="text/css">
+	  nav ul li,
+   nav ul,li,a
+    {
+      display:inline-block;
+      color:green;
+    }
+    nav ul li a:link,
+    nav ul li a:visited
+     {
+      text-decoration:none;
+      padding:10px;
+      transition:all;
+     }
+     nav ul li a:hover,
+     nav ul li  a:active
+      {
+       background-color:#dc7fcb;
+      } 
+	 </style>
+  </head>
+   <body bgcolor="BF5B6C" >
+    <nav style=" background-color:lightgray;"><ul>   
+	    <li>  <a  href="About.html">ABOUT </a> </li>
+	    <li>  <a href="Facility.html">FACILITIES </a> </li> 
+	     <li> <a href="room.html">ROOMS </a> </li>
+	   	 <li> <a href="rules.html">RULES </a></li>
+	   	  <li>  <a href="index.html">HOME</a></li> </ul></nav>  
+     <img align="right" src="staff2.jpg" width="50%" height="300px" >
+        <h1> ADD STAFF </h1> 
+	 <form action="AddStaff.jsp" method="post"  />
+	  <table>
+	  <tr>
+	  <td> UserId:</td>
+	   <td ><input type="text" name="SID" placeholder="your id?" required /><br/> <br/> </td> </tr>
+	    <tr>
+		<td> Name</td>
+	   <td><input type="text" name="SNAME" placeholder="your name?" required /><br/> <br/> </td> </tr>
+	    <tr>
+	    <td> Mobile:</td>
+      <td> <input type="text" name="SMOBILE" placeholder="your name?" required /><br/> <br/> </td> </tr>
+	  <tr>
+	  <td> Salary:</td>
+       <td> <input type="text" name="SALARY" placeholder="your salary?" required /><br/> <br/> </td> </tr>
+	   <tr>
+	    <td> <input type="submit" value="ADD"/> </td></tr>
+	  </table>
+
+	</body>
+<html> 

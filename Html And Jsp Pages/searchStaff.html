@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		   <style type="text/css">
+		    nav ul li,
+   nav ul,li,a
+    {
+      display:inline-block;
+      color:green;
+    }
+    nav ul li a:link,
+    nav ul li a:visited
+     {
+      text-decoration:none;
+      padding:10px;
+      transition:all;
+     }
+     nav ul li a:hover,
+     nav ul li  a:active
+      {
+       background-color:#dc7fcb;
+      }
+		   </style>
+	</head>
+	<body style="text-align: center; background-color: #b9f2ed;">
+	<nav style=" background-color:lightblue; "><ul>   
+	    <li>  <a  href="About.html">ABOUT </a> </li>
+	    <li>  <a href="Facility.html">FACILITIES </a> </li> 
+	     <li> <a href="room.html">ROOMS </a> </li>
+	   	 <li> <a href="rules.html">RULES </a></li> 
+	   	  <li>  <a href="index.html">HOME</a></li></ul></nav>  <br/> 
+		<img src="search1.png"/>
+		<form action="searchStaff.jsp" method="post"> <br/>
+           STAFF ID: <input type="text" name="SID" placeholder="Your id?" required />
+                       <input type="submit" value="search">
+		</form>
+		<hr/>
+	</body>
+</html>
